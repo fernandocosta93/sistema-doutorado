@@ -51,7 +51,7 @@ def home_page():
     # Área de texto
     if st.session_state.botao_anvisa:
         base_path = os.getcwd()
-        path = base_path + "\\template_matching\\anvisa\\page_inicial.txt"
+        path = base_path + "/template_matching/anvisa/page_inicial.txt"
         with open(path, 'r', encoding='utf-8') as file:
             data = file.read()
         # st.write(f"""{data}""")
