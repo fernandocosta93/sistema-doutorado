@@ -52,7 +52,7 @@ def page_rep_trabalho():
         if st.button("navegar"):
             st.session_state.page = "page_navegar"
             st.session_state.dfg = nome_dfg
-            st.experimental_rerun()
+            # st.experimental_rerun()
 
     
             
