@@ -1,0 +1,7 @@
+Um outro tipo de transição é quando a atividade encerra e ela vai para ela mesmo.
+
+Este elemento no processo <b>da Anvisa</b> também pode ser vista como uma transição, 
+mas no caso ela acontece da atividade <b>Finalização</b> para ela mesmo, ou seja, 
+a atividade <b>Finalização</b> acontece novamente em sequência. 
+O valor na seta indica quantas vezes essa “auto transição” aconteceu no período de <b>03/01/2004 a 11/11/2019</b>.
+No próximo elemento, vamos verificar mais um tipo de transição.

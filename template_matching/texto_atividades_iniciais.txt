@@ -1,0 +1,7 @@
+As atividades que podem iniciar o processo da Anvisa, ou seja, aquelas que acontecem primeiro são:
+
+<ul><li>Fila de Análise</li><li>Finalização</li><li>Análise em Andamento</li><li>Exigência</li></ul>
+
+Essas atividades iniciais podem ser encontradas no modelo de processo com setas que partem do círculo verde (conforme a primeira imagem)
+ para as atividades da lista acima. 
+A representação de uma atividade inicial pode ser visualizada ao lado.

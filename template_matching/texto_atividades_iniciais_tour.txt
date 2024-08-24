@@ -1,0 +1,7 @@
+Como dito antes, algumas atividades podem iniciar o processo. No trabalho da Anvisa, essas atividades são:
+
+<ul><li>Fila de Análise</li><li>Finalização</li><li>Análise em Andamento</li><li>Exigência</li></ul>
+
+Essas atividades iniciais podem ser encontradas no modelo de processo com setas que partem do círculo com um ponto em negrito 
+para as atividades da lista acima. Algumas atividades podem iniciar o processo, outras podem terminar o processo 
+(algumas nem iniciam ou terminam). No próximo tópico, iremos ver as Atividades Finais.

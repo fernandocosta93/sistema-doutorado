@@ -1,0 +1,7 @@
+Este círculo com um ponto em negrito representado na imagem acima indica o início do processo, ou seja, 
+por meio dele, saberemos quais atividades iniciam o processo. No caso do processo da Anvisa, a atividade inicial pode ser uma dessas:
+
+<ul><li>Fila de Análise</li><li>Finalização</li><li>Análise em Andamento</li><li>Exigência</li></ul>
+
+O significado disso é quando o processo da Anvisa ocorre, uma dessas atividades iniciará o processo.
+ No próximo elemento, iremos verificar um exemplo de atividade inicial.

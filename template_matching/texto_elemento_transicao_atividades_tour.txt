@@ -1,0 +1,9 @@
+Existem alguns tipos de transições, o primeiro é referente de uma atividade para outra. 
+
+Aqui podemos ver a união de dois elementos, contendo duas atividades: <b>Exigência</b> e <b>Recurso</b>. 
+
+Essa parte do processo <b>da Anvisa</b> indica que houve uma transição de <b>Exigência</b> para <b>Recurso</b>. 
+
+O valor na seta indica quantas vezes a transição aconteceu no período de <b>03/01/2004 a 11/11/2019</b>.
+
+Nos próximos elementos, iremos verificar outros tipos de transição.

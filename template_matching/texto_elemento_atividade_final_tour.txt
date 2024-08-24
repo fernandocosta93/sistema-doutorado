@@ -1,0 +1,6 @@
+Quando existe um atividade que aponta uma seta para o círculo com um quadrado em negrito, 
+ela é conhecida como uma atividade final.
+Este elemento indica uma atividade que finaliza o processo <b>da Anvisa</b>.
+
+<b>Outras Etapas</b> é uma atividade que finaliza o processo <b>1779</b> vezes durante o período de <b>03/01/2004 a 11/11/2019</b>. 
+Ela acontece logo após outras atividades, como <b>Exigência e Recurso</b>.

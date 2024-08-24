@@ -1,0 +1,6 @@
+Por fim, o círculo com quadrado em negrito, como representada na imagem acima, indica o final do processo. 
+No caso do processo da Anvisa, a atividade final pode ser uma dessas:
+
+<ul><li>Finalização</li><li>Análise de Cumprimento de Exigência</li><li>Outras Etapas</li><li>Fila de Análise</li><li>Recurso</li><li>Análise em Andamento</li><li>Exigência</li></ul>
+
+O significado disso é quando o processo da Anvisa ocorre, uma dessas atividades estará no final do processo.

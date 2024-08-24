@@ -1,0 +1,7 @@
+As ações que são realizadas durante a execução do processo da Anvisa são as seguintes:
+
+<ul><li>Fila de Análise</li><li>Exigência</li><li>Análise de Cumprimento de Exigência</li><li>Análise em Andamento</li><li>Finalização</li><li>Recurso</li><li>Outras Etapas</li><li>Sobrestado Anvisa</li><li>Sobrestado Externo</li></ul>
+
+Cada vez que o processo da Anvisa ocorre, algumas dessas ou todas atividades são realizadas.
+As atividades podem ser observadas nos retângulos do modelo de processo, como pode ser observada na imagem acima.
+O número entre parênteses (<b>945</b>) ao lado do nome da atividade (<b>Recurso</b>) indica a frequência que tal atividade é executada.

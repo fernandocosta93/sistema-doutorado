@@ -1,0 +1,8 @@
+Assim como temos atividades que iniciam, algumas outras podem finalizar o processo. 
+Neste caso, as atividades que podem encerrar o processo da Anvisa, ou seja, aquelas que acontecem no final são:
+
+<ul><li>Finalização</li><li>Análise de Cumprimento de Exigência</li><li>Outras Etapas</li><li>Fila de Análise</li><li>Recurso</li><li>Análise em Andamento</li><li>Exigência</li></ul>
+
+Essas atividades podem ser encontradas no modelo de processo em que existem setas apontando a 
+partir dessas atividades listadas acima para o círculo que contém um quadrado em negrito. 
+Nas próximas etapas, iremos verificar outros elementos importantes.

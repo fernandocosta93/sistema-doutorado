@@ -1,0 +1,2 @@
+A "transição" é representada por meio de uma seta que contém um número ao lado, 
+conforme visto na imagem acima. Normalmente, ela mostra a transição de uma atividade para outra.

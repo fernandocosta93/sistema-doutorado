@@ -1,0 +1,7 @@
+As atividades que podem encerrar o processo {{processo}}, ou seja, aquelas que acontecem no final são:
+
+{{lista_atividades_finais}}
+
+Essas atividades podem ser encontradas no modelo de processo em que existem setas apontando a partir dessas atividades 
+listadas acima para o círculo laranja (primeira imagem).
+A representação de uma atividade final pode ser visualizada ao lado (segunda imagem).

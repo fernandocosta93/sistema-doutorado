@@ -1,0 +1,7 @@
+Uma atividade que recebe uma seta que parte do círculo com ponto em negrito é denominada como atividade inicial. 
+Neste caso, indica uma atividade que inicia o processo da Anvisa.
+
+A atividade <b>Fila de Análise</b> acontece primeiro no processo, antes de outras atividades, como <b>Análise de Cumprimento de Exigência e Sobrestado Anvisa</b>, 
+durante o período de <b>03/01/2004 a 11/11/2019</b>.
+
+Há atividades que não iniciam o processo (e também não finalizam o processo), veremos um exemplo no próximo elemento.

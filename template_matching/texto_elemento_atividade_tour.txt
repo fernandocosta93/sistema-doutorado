@@ -1,0 +1,6 @@
+Uma atividade pode ser identificada dentro de um retângulo, como é apresentado na imagem acima. 
+Este elemento indica uma atividade que acontece dentro do processo <b>da Anvisa</b>, neste caso, uma atividade que não inicia nem finaliza o processo.
+
+<b>Recurso</b> é uma atividade que foi executada <b>945</b> durante o processo no período de <b>03/01/2004 a 11/11/2019</b>.
+
+Nos próximos elementos, iremos verificar como que uma transição acontece, ou seja, parte de uma atividade para outra.

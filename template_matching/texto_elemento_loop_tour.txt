@@ -1,0 +1,7 @@
+Por fim, outro tipo de transição pode ser vista como um loop. 
+
+Essa parte do processo <b>da Anvisa</b> indica que as atividades <b>Análise em Andamento</b> e <b>Outras Etapas</b> podem ocorrer em paralelo, 
+ou seja, uma acontece e depois acontece outra e o processo continua. 
+Uma outra interpretação é que as atividades podem estar em um “loop”, acontece uma, 
+depois acontece outra, depois volta para primeira, e assim por diante.
+Iremos agora verificar como um processo pode ser encerrado.

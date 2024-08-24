@@ -1,0 +1,11 @@
+Como identificamos dentro da representação quando uma atividade finaliza e outra começa? 
+
+É por meio da seta. Um ponto importante sobre a seta é que quanto maior a sua espessura, isso indica que mais a transição acontece.
+
+Este elemento indica uma “transição” de atividades no processo <b>da Anvisa</b>. Ou seja, como um passo de uma atividade para outra.
+
+Um exemplo é que no processo, a atividade <b>Finalizaçõa</b> acontece e o elemento aponta para a atividade <b>Outras Etapas</b>, 
+indicando que <b>Outras Etapas</b> acontece logo após <b>Finalizaçõa</b>. 
+
+O valor ao lado da seta indica quantas vezes essa transição aconteceu no processo.
+Vamos ver no próximo elemento, uma transição de um atividade para outra.

@@ -1,0 +1,7 @@
+As ações que são realizadas durante a execução do processo {{processo}} são as seguintes:
+
+{{lista_atividades}}
+
+Cada vez que o processo {{processo}} ocorre, algumas dessas ou todas atividades são realizadas.
+As atividades podem ser observadas nos retângulos do modelo de processo, como pode ser observada na imagem.
+O número entre parênteses ao lado do nome da atividade indica a frequência que tal atividade é executada.
