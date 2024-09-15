@@ -40,7 +40,7 @@ def home_page():
         if st.button("ANVISA"):
             st.session_state.botao_anvisa = True
             st.session_state.botao_tjsp = False
-            st.session_state.nome_processo = "Anvisa"        
+            st.session_state.nome_processo = "ANVISA"        
 
     with juridico:
         if st.button("TJ-SP"):
@@ -64,11 +64,17 @@ def home_page():
             st.session_state.page = "page_rep_trabalho"
 
     if st.session_state.botao_tjsp:
+        base_path = os.getcwd()
+        path = base_path + "/template_matching/tjsp/page_inicial.txt"
+        with open(path, 'r', encoding='utf-8') as file:
+            data = file.read()
         st.markdown(f"""
             <div class="centralizado">
-                <p>Log do Tribunal de Justiça do Estado de São Paulo</p>
+                <p>{data}</p>
             </div>
             """, unsafe_allow_html=True)
+        if st.button("AVANÇAR"):
+            st.session_state.page = "page_rep_trabalho"
 
 # Controlar a navegação entre as páginas
 if st.session_state.page == "home":
