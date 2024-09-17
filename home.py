@@ -51,7 +51,7 @@ def home_page():
         
     # Área de texto
     if st.session_state.botao_anvisa:
-        texto_inicial(anvisa)
+        texto_inicial('anvisa')
         # base_path = os.getcwd()
         # path = base_path + "/template_matching/anvisa/page_inicial.txt"
         # with open(path, 'r', encoding='utf-8') as file:
