@@ -36,14 +36,14 @@ def home_page():
     st.markdown("<h1 class='centered-title'>Processos</h1>", unsafe_allow_html=True)
 
     # Botões
-    anvisa, juridico = st.columns(2)
+    anvisa, tjsp = st.columns(2)
     with anvisa:         
         if st.button("ANVISA"):
             st.session_state.botao_anvisa = True
             st.session_state.botao_tjsp = False
             st.session_state.nome_processo = "ANVISA"        
 
-    with juridico:
+    with tjsp:
         if st.button("TJ-SP"):
             st.session_state.botao_anvisa = False
             st.session_state.botao_tjsp = True
