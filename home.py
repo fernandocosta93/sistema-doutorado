@@ -15,6 +15,7 @@ from tour_atividade_final import page_tour_elemento_atividade_final
 from tour_elemento_final_processo import page_tour_elemento_final_processo
 from navegar import page_navegar
 from css.css import HOME_CSS
+from functions.funcs_home import texto_inicial
 
 # Inicializar o estado das variáveis, se não estiverem definidos
 if 'botao_anvisa' not in st.session_state:
@@ -50,16 +51,17 @@ def home_page():
         
     # Área de texto
     if st.session_state.botao_anvisa:
-        base_path = os.getcwd()
-        path = base_path + "/template_matching/anvisa/page_inicial.txt"
-        with open(path, 'r', encoding='utf-8') as file:
-            data = file.read()
-        # st.write(f"""{data}""")
-        st.markdown(f"""
-            <div class="centralizado">
-                <p>{data}</p>
-            </div>
-            """, unsafe_allow_html=True)
+        texto_inicial(anvisa)
+        # base_path = os.getcwd()
+        # path = base_path + "/template_matching/anvisa/page_inicial.txt"
+        # with open(path, 'r', encoding='utf-8') as file:
+        #     data = file.read()
+        # # st.write(f"""{data}""")
+        # st.markdown(f"""
+        #     <div class="centralizado">
+        #         <p>{data}</p>
+        #     </div>
+        #     """, unsafe_allow_html=True)
         if st.button("AVANÇAR"):
             st.session_state.page = "page_rep_trabalho"
 
