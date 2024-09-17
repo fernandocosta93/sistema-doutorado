@@ -52,29 +52,11 @@ def home_page():
     # Área de texto
     if st.session_state.botao_anvisa:
         texto_inicial('anvisa')
-        # base_path = os.getcwd()
-        # path = base_path + "/template_matching/anvisa/page_inicial.txt"
-        # with open(path, 'r', encoding='utf-8') as file:
-        #     data = file.read()
-        # # st.write(f"""{data}""")
-        # st.markdown(f"""
-        #     <div class="centralizado">
-        #         <p>{data}</p>
-        #     </div>
-        #     """, unsafe_allow_html=True)
         if st.button("AVANÇAR"):
             st.session_state.page = "page_rep_trabalho"
 
     if st.session_state.botao_tjsp:
-        base_path = os.getcwd()
-        path = base_path + "/template_matching/tjsp/page_inicial.txt"
-        with open(path, 'r', encoding='utf-8') as file:
-            data = file.read()
-        st.markdown(f"""
-            <div class="centralizado">
-                <p>{data}</p>
-            </div>
-            """, unsafe_allow_html=True)
+        texto_inicial('tjsp')
         if st.button("AVANÇAR"):
             st.session_state.page = "page_rep_trabalho"
 
