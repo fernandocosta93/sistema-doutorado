@@ -3,14 +3,24 @@ from css.css import *
 
 def page_rep_trabalho():
 
+    # query_params = st.experimental_get_query_params()
+    nome_processo = st.query_params['process']
+
+    if nome_processo == "ANVISA":
+         nome_dfg = "imgs/anvisa/anvisa_dfg.png"
+         template = 'template_matching/anvisa/page_rep_trabalho.txt'
+    elif nome_processo == "TJ-SP":
+         nome_dfg = 'imgs/tjsp/dfg_principal.png'
+         template = 'template_matching/tjsp/page_rep_trabalho.txt'
+
     st.markdown(HOME_CSS, unsafe_allow_html=True)
     st.markdown("<h1 class='centered-title'>Representação do trabalho</h1>", unsafe_allow_html=True)     
 
-    nome_dfg = "imgs/anvisa_dfg.png"
+    
     st.image(nome_dfg, use_column_width=True)
 
     # colocando o texto
-    with open('template_matching/anvisa/page_rep_trabalho.txt', 'r', encoding='utf-8') as file:
+    with open(template, 'r', encoding='utf-8') as file:
             data = file.read()
 
     # Centralizando o texto em uma div usando HTML/CSS
