@@ -43,8 +43,7 @@ def home_page():
             st.session_state.botao_anvisa = True
             st.session_state.botao_tjsp = False
             st.session_state.nome_processo = "ANVISA"
-            st.query_params = {'process': 'ANVISA'}
-            st.experimental_rerun()        
+            st.query_params = {'process': 'ANVISA'}       
 
     with tjsp:
         if st.button("TJ-SP"):
@@ -52,7 +51,6 @@ def home_page():
             st.session_state.botao_tjsp = True
             st.session_state.nome_processo = "TJ-SP" 
             st.query_params = {'process': 'TJ-SP'}
-            st.experimental_rerun()
         
     # Área de texto
     if st.session_state.botao_anvisa:
