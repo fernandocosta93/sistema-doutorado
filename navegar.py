@@ -1,8 +1,14 @@
 import streamlit as st
 from css.css import *
-# from tour import page_tour
+from functions.funcs_navegar import variaveis_necessarias
 
 def page_navegar():
+
+    nome_processo = st.query_params['process']
+    img_inicio_processo, img_fim_processo, img_seta_transicao, texto_seta_transicao, img_atividade, texto_atividade, img_atividade_inicial, \
+    texto_atividade_inicial, img_atividade_final, texto_atividade_final, img_transicao_atividades, texto_transicao_atividade, \
+    img_autotransicao, texto_autotransicao, img_transicao_loop, texto_transicao_loop = variaveis_necessarias(nome_processo)
+         
 
     # Inicializar o estado das variáveis, se não estiverem definidos
     if 'botao_atividades' not in st.session_state:
@@ -55,10 +61,10 @@ def page_navegar():
 
             left, center, right = st.columns(3)
             with center:
-                st.image('imgs/anvisa/atividade.png')
+                st.image(img_atividade)
 
             # colocando o texto
-            with open('template_matching/anvisa/texto_atividades.txt', 'r', encoding='utf-8') as file:
+            with open(texto_atividade, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
         
@@ -67,12 +73,12 @@ def page_navegar():
             left, right = st.columns(2)
 
             with left:
-                st.image('imgs/inicio_processo.png')
+                st.image(img_inicio_processo)
             with right:
-                st.image('imgs/anvisa/atividade_inicial.png')
+                st.image(img_atividade_inicial)
 
             # colocando o texto
-            with open('template_matching/anvisa/texto_atividades_iniciais.txt', 'r', encoding='utf-8') as file:
+            with open(texto_atividade_inicial, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
         
@@ -80,12 +86,12 @@ def page_navegar():
 
             left, right = st.columns(2)
             with left:
-                st.image('imgs/fim_processo.png')
+                st.image(img_fim_processo)
             with right:
-                st.image('imgs/anvisa/atividade_final.png')
+                st.image(img_atividade_final)
 
             # colocando o texto
-            with open('template_matching/anvisa/texto_atividades_finais.txt', 'r', encoding='utf-8') as file:
+            with open(texto_atividade_final, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
 
@@ -94,33 +100,33 @@ def page_navegar():
             
             left, center, right = st.columns(3)
             with center:
-                st.image('imgs/anvisa/seta_transicao.png')
+                st.image(img_seta_transicao)
             # colocando o texto
-            with open('template_matching/anvisa/navegar_seta_transicao.txt', 'r', encoding='utf-8') as file:
+            with open(texto_seta_transicao, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
 
             left, center, right = st.columns(3)
             with center:
-                st.image('imgs/anvisa/transicao_atividades.png')
+                st.image(img_transicao_atividades)
             # colocando o texto
-            with open('template_matching/anvisa/navegar_transicao_atividades.txt', 'r', encoding='utf-8') as file:
+            with open(texto_transicao_atividade, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
 
             left, center, right = st.columns(3)
             with center:
-                st.image('imgs/anvisa/auto_transicao.png')
+                st.image(img_autotransicao)
             # colocando o texto
-            with open('template_matching/anvisa/navegar_auto_transicao.txt', 'r', encoding='utf-8') as file:
+            with open(texto_autotransicao, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
 
             left, center, right = st.columns(3)
             with center:
-                st.image('imgs/anvisa/transicao_loop.png')
+                st.image(img_transicao_loop)
             # colocando o texto
-            with open('template_matching/anvisa/navegar_transicao_loop.txt', 'r', encoding='utf-8') as file:
+            with open(texto_transicao_loop, 'r', encoding='utf-8') as file:
                     data = file.read()
             st.markdown(data, unsafe_allow_html=True)
 

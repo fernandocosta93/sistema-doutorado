@@ -2,8 +2,7 @@ import streamlit as st
 from css.css import *
 
 def page_rep_trabalho():
-
-    # query_params = st.experimental_get_query_params()
+    
     nome_processo = st.query_params['process']
 
     if nome_processo == "ANVISA":
