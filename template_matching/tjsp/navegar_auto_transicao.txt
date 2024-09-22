@@ -1,0 +1,3 @@
+Um outro tipo de transição pode ser observada abaixo. 
+Ela pode ser denominada de uma “auto transição”. 
+Nela, a atividade <b>Petição Juntada</b> ocorre e, logo após a primeira execução, ela é executada novamente.

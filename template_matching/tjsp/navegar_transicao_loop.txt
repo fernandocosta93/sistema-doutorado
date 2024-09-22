@@ -1,0 +1,5 @@
+Por fim, um último tipo de transição é observada abaixo. 
+Nela, as atividades <b>Concedidada a Antecipação de tutela</b> e <b>Conclusos para Decisão</b> podem ocorrer em paralelo, 
+ou seja, uma acontece e, em seguida, a outra ocorre. 
+Outra interpretação, as atividades estão em loop, 
+que vai ocorrendo uma, depois outra, depois volta para primeira e assim diante.

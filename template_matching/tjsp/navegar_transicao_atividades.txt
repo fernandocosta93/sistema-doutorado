@@ -1,0 +1,2 @@
+A transição de uma atividade para outra pode ser observada imagem acima. 
+Neste ponto, a atividade <b>Pedido de Liminar/Tutela Antecipada Juntado</b> ocorre e, logo após, a atividade <b>Conclusos para Decisão</b> acontece.
