@@ -131,48 +131,48 @@ def page_navegar():
             st.markdown(data, unsafe_allow_html=True)
 
 
-    if "selected_section" not in st.session_state:
-        st.session_state.selected_section = None
+    # if "selected_section" not in st.session_state:
+    #     st.session_state.selected_section = None
 
-    # Criar botões para simular a navegação entre seções
-    st.sidebar.title("Navegação")
-    sections = {
-        "Fila de Análise": "fila_analise",
-        "Exigência": "exigencia",
-        "Análise de Cumprimento de Exigência": "analise_cumprimento",
-        "Análise em Andamento": "analise_andamento",
-        "Finalização": "finalizacao",
-        "Recurso": "recurso",
-        "Outras Etapas": "outras_etapas",
-        "Sobrestado Anvisa": "sobrestado_anvisa",
-        "Sobrestado Externo": "sobrestado_externo"
-    }
+    # # Criar botões para simular a navegação entre seções
+    # st.sidebar.title("Navegação")
+    # sections = {
+    #     "Fila de Análise": "fila_analise",
+    #     "Exigência": "exigencia",
+    #     "Análise de Cumprimento de Exigência": "analise_cumprimento",
+    #     "Análise em Andamento": "analise_andamento",
+    #     "Finalização": "finalizacao",
+    #     "Recurso": "recurso",
+    #     "Outras Etapas": "outras_etapas",
+    #     "Sobrestado Anvisa": "sobrestado_anvisa",
+    #     "Sobrestado Externo": "sobrestado_externo"
+    # }
 
-    for label, section in sections.items():
-        if st.sidebar.button(label):
-            st.session_state.selected_section = section
+    # for label, section in sections.items():
+    #     if st.sidebar.button(label):
+    #         st.session_state.selected_section = section
 
-    # Mostrar o conteúdo com base na seleção
-    if st.session_state.selected_section == "fila_analise":
-        st.write("Conteúdo detalhado sobre a Fila de Análise.")
-    elif st.session_state.selected_section == "exigencia":
-        st.write("Detalhes sobre a Exigência.")
-    elif st.session_state.selected_section == "analise_cumprimento":
-        st.write("Informações sobre Análise de Cumprimento de Exigência.")
-    elif st.session_state.selected_section == "analise_andamento":
-        st.write("Detalhes sobre Análise em Andamento.")
-    elif st.session_state.selected_section == "finalizacao":
-        st.write("Informações sobre Finalização.")
-    elif st.session_state.selected_section == "recurso":
-        st.write("Detalhes sobre Recurso.")
-    elif st.session_state.selected_section == "outras_etapas":
-        st.write("Informações sobre Outras Etapas.")
-    elif st.session_state.selected_section == "sobrestado_anvisa":
-        st.write("Detalhes sobre Sobrestado Anvisa.")
-    elif st.session_state.selected_section == "sobrestado_externo":
-        st.write("Informações sobre Sobrestado Externo.")
-    else:
-        st.write("Selecione uma opção no menu lateral para ver detalhes.")
+    # # Mostrar o conteúdo com base na seleção
+    # if st.session_state.selected_section == "fila_analise":
+    #     st.write("Conteúdo detalhado sobre a Fila de Análise.")
+    # elif st.session_state.selected_section == "exigencia":
+    #     st.write("Detalhes sobre a Exigência.")
+    # elif st.session_state.selected_section == "analise_cumprimento":
+    #     st.write("Informações sobre Análise de Cumprimento de Exigência.")
+    # elif st.session_state.selected_section == "analise_andamento":
+    #     st.write("Detalhes sobre Análise em Andamento.")
+    # elif st.session_state.selected_section == "finalizacao":
+    #     st.write("Informações sobre Finalização.")
+    # elif st.session_state.selected_section == "recurso":
+    #     st.write("Detalhes sobre Recurso.")
+    # elif st.session_state.selected_section == "outras_etapas":
+    #     st.write("Informações sobre Outras Etapas.")
+    # elif st.session_state.selected_section == "sobrestado_anvisa":
+    #     st.write("Detalhes sobre Sobrestado Anvisa.")
+    # elif st.session_state.selected_section == "sobrestado_externo":
+    #     st.write("Informações sobre Sobrestado Externo.")
+    # else:
+    #     st.write("Selecione uma opção no menu lateral para ver detalhes.")
     
    
 
