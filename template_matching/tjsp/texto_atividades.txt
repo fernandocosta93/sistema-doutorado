@@ -1,10 +1,10 @@
 Algumas das ações que são realizadas durante a execução do processo do Tribunal de Justiça de São Paulo são as seguintes:
 
-\n\n
+
 
 <ul><li>Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)</li><li>Procuração/substabelecimento  Juntada</li><li>Conclusos para Decisão</li><li>Decisão Determinação</li><li>Remetido ao DJE</li><li>Certidão de Publicação Expedida</li><li>Certidão de Cartório Expedida</li><li>Remetidos os Autos para o Cartório Distribuidor Local para Redistribuição</li><li>Redistribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)</li></ul>
 
-\n\n
+
 
 Cada vez que o processo do Tribunal de Justiça de São Paulo  ocorre, 
 algumas dessas ou todas atividades são realizadas.\n

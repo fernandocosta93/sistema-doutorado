@@ -1,6 +1,5 @@
 As atividades iniciais deste processo do Tribunal de Justiça do Estado de São Paulo são:
 
-\n\n
 
 <ul>
 <li>Distribuído por Dependência (movimentação exclusiva do distribuidor)</li>
